@@ -1,0 +1,51 @@
+body {
+	font-family: Times New Roman;
+	font-size: 1.0em;
+	background-color: Grey;
+	background-position: centre;
+	margin: 0; 
+	padding: 0;
+	text-align: left; 
+	color: Chartreuse;
+	background: #666666;
+	background-color: Grey;
+}
+
+.oneColFixCtrHdr #container {
+	width: 780px;  
+	/* avoids a horizontal scroll bar as it less than 800px */
+	background: #FFFFFF;
+	margin: 0 auto; 
+	border: 1px solid #000000;
+	text-align: left; 
+	}
+	
+.oneColFixCtrHdr #header {
+	background: #DDDDDD; 
+	padding: 0 10px 0 20px;  
+}
+
+.oneColFixCtrHdr #header h1 {
+	margin: 0; 
+	padding: 10px 0; 
+}
+
+.oneColFixCtrHdr #mainContent {
+	padding: 0 20px; 
+	background-color: black;
+}
+
+.oneColFixCtrHdr #footer {
+	padding: 0 10px; 
+	background:#DDDDDD;
+}
+
+.oneColFixCtrHdr #footer p {
+	margin: 0; 
+	/* zeroing means that the footer will avoid the possibility of margin collapse  */
+	padding: 10px 0;  
+}
+
+a href {
+	font-color: black;
+}
